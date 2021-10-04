@@ -1,0 +1,11 @@
+This program is a web scrapper for one of the most well-known russian 
+site about films and etx. "kinopoisk.ru". It's very simple and effective,
+
+First of all we need to extract links. Get started with "top_parser.py",
+this file only save html of the top page "top250.html" for easy work,
+then we catch all links of the films by "links_parser.py".And, finnaly, 
+our diamond "kinopoisk.py" is ready to work. It'walk across
+links dictionary and storage information to the files in folder "data".
+
+This scrapper catch only actors list, but it's makable to do an other 
+information ecxtraction.
